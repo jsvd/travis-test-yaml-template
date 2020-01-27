@@ -1,10 +1,11 @@
-sudo: required
+os: linux
+language: ruby
 services: docker
 addons:
   apt:
     packages:
     - docker-ce
-matrix:
+jobs:
   include:
   - env: SNAPSHOT=true ELASTIC_STACK_VERSION=8.x
   - env: SNAPSHOT=true ELASTIC_STACK_VERSION=7.x
