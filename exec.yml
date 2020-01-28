@@ -1,2 +1,2 @@
-install: ci/unit/docker-setup.sh
-script: ci/unit/docker-run.sh
+install: ci/docker-setup.sh
+script: ci/docker-run.sh
