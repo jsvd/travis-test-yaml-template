@@ -1,3 +1,4 @@
 deploy:
-  provider: rubygems
-  api_key: "YOUR API KEY"
+  provider: script
+  script: ./ci/docker-publish.sh
+  skip_cleanup: true
