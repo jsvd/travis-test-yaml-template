@@ -1,5 +1,8 @@
 jobs:
   include:
+  - stage: "Test"
+    install: ci/docker-setup.sh
+    script: ci/docker-run.sh
   - stage: "Deploy"
     script: skip
     language: generic
