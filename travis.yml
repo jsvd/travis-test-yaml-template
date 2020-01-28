@@ -1,5 +1,5 @@
 import:
   - jsvd/travis-test-yaml-template:defaults.yml
-  - jsvd/travis-test-yaml-template:matrxi.yml
+  - jsvd/travis-test-yaml-template:matrix.yml
   - jsvd/travis-test-yaml-template:exec.yml
   - jsvd/travis-test-yaml-template:deploy.yml
