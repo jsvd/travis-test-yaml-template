@@ -1,3 +1,4 @@
 import:
   - jsvd/travis-test-yaml-template:defaults.yml
+  - jsvd/travis-test-yaml-template:matrix.yml
   - jsvd/travis-test-yaml-template:jobs.yml
